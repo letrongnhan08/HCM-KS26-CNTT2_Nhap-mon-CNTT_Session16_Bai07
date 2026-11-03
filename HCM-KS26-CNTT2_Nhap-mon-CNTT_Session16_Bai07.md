@@ -54,8 +54,7 @@ Khi máy chủ khôi phục về mã 200 OK, với mã nguồn HTML/JSON, trình
 \-Giải thích hành động sửa chữ trên Tab Elements không có giá trị lưu trữ trên máy chủ CarePulse:
 
 * phân tách giữa Client-side và Server-side: Client-side là nằm trên máy bệnh nhân Trình duyệt tải mã HTML/JS từ server về và lưu trữ cấu trúc giao diện dưới dạng DOM Tree nằm trong RAM máy của bệnh nhân Thao tác chỉnh sửa trên DevTools chỉ thay đổi trên máy của bệnh nhân không thể thay đổi được giao diện CarePulse (Server-side) là nằm hệ thống lưu trữ chuyên dụng đặt tại trung tâm dữ liệu của CarePulse.
-* sửa chữ trên Tab Elements không có giá trị vì nó tạo ra một cấu trúc cây là DOM và lưu trữ bản sao cấu trúc đó trực tiếp trên bộ nhớ RAM tạm thời của máy tính cá nhân không phải của CarePulse và khi sửa trên Tab Elements thì chỉ thay đổi trên máy của người đó không thay đổi được máy chủ CarePulse
-* 
+* sửa chữ trên Tab Elements không có giá trị vì nó tạo ra một cấu trúc cây là DOM và lưu trữ bản sao cấu trúc đó trực tiếp trên bộ nhớ RAM tạm thời của máy tính cá nhân không phải của CarePulse và khi sửa trên Tab Elements thì chỉ thay đổi trên máy của người đó không thay đổi được máy chủ CarePulse.
 
 
 
